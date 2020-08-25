@@ -26,7 +26,7 @@ jobs:
       run: dotnet pack --configuration Release --no-restore 
       
     - name: Publish GitHub Package
-      run: dotnet nuget push **/*.nupkg --Source "github"
+      run: dotnet nuget push **/*.nupkg --source "github"
       
     - name: Publish Nuget Package
       run: dotnet nuget push **/*.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source "https://api.nuget.org/v3/index.json" --no-symbols true
