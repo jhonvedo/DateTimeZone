@@ -14,3 +14,7 @@ Get the DateTime of a specific zone.
    ```
    
 
+
+
+In non-windows systems the TimeZone name is different.
+If the system is non-windows, this library will translate the TimeZone name for you
