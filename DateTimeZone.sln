@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeZone", "DateTimeZone.csproj", "{7D8A3316-5EC7-4CA8-99FF-C908ACBF6AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeZone", "DateTimeZone.csproj", "{7D8A3316-5EC7-4CA8-99FF-C908ACBF6AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeZoneTest", "..\DateTimeZoneTest\DateTimeZoneTest.csproj", "{89E9F6E2-9771-4499-9C83-667AB960B676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7D8A3316-5EC7-4CA8-99FF-C908ACBF6AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D8A3316-5EC7-4CA8-99FF-C908ACBF6AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D8A3316-5EC7-4CA8-99FF-C908ACBF6AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E9F6E2-9771-4499-9C83-667AB960B676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E9F6E2-9771-4499-9C83-667AB960B676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E9F6E2-9771-4499-9C83-667AB960B676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E9F6E2-9771-4499-9C83-667AB960B676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

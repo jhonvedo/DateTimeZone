@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DateTimeZone;
 
-namespace DateTimeZone
+namespace System
 {
     public readonly struct DateTimeZone
     {
