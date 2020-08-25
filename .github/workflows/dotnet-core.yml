@@ -20,12 +20,13 @@ jobs:
     - name: Install dependencies
       run: dotnet restore    
     - name: Registry GitHub Source
-      run : dotnet nuget add source https://nuget.pkg.github.com/jhonvedo/index.json -n github -u jhonvedo -p GH_TOKEN --store-password-in-clear-text
+      run : dotnet nuget add source https://nuget.pkg.github.com/jhonvedo/index.json -n github -u jhonvedo -p GH_TOKEN
     
     - name: Build Nuget Package
       run: dotnet pack --configuration Release --no-restore 
       
     - name: Publish GitHub Package
       run: dotnet nuget push **/*.nupkg --source "github"
+      
     - name: Publish Nuget Package
       run: dotnet nuget push **/*.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source "https://api.nuget.org/v3/index.json" --no-symbols true
