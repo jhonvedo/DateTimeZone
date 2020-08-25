@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>jhonvedo</Authors>
     <PackageProjectUrl>https://github.com/jhonvedo/DateTimeZone</PackageProjectUrl>
-    <PackageIcon>icon.png</PackageIcon>
+   
     <RepositoryType></RepositoryType>
     <Company>https://jhonacevedo.com</Company>
     <RepositoryUrl>https://github.com/jhonvedo/DateTimeZone</RepositoryUrl>
@@ -21,6 +21,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+
+  
 
  
 
