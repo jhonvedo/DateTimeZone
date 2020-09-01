@@ -1,8 +1,8 @@
-﻿using DTZone;
+﻿using DateTimeZone;
 
 namespace System
 {
-    public readonly struct DateTimeZone
+    public readonly struct DateTimeByZone
     {
         public static DateTime Now { get => TimeZoneInfo.ConvertTime(DateTime.UtcNow, TimeZoneService.GetCustomTimeZone()); }
 

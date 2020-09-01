@@ -1,4 +1,4 @@
-using DTZone;
+using DateTimeZone;
 
 using System;
 using System.Linq;
@@ -11,12 +11,10 @@ namespace DateTimeZoneTest
     {
         [Fact]
         public void TestConvertToSydneyTime()
-        {
-            //TimeZoneService.SetCustomTimeZone("AUS Eastern Standard Time");
-                                              //"AUS Eastern Standard Time"
+        {            
             TimeZoneService.SetCustomTimeZone(DateTimeZoneType.CANBERRA_MELBOURNE_SYDNEY);
             DateTime expectedTime = DateTime.UtcNow.AddHours(10);
-            DateTime ausEast = DateTimeZone.Now;  
+            DateTime ausEast = DateTimeByZone.Now;  
 
             Assert.Equal(expectedTime.Year, ausEast.Year);
             Assert.Equal(expectedTime.Month, ausEast.Month);
@@ -35,7 +33,7 @@ namespace DateTimeZoneTest
             {
                 try
                 {
-                    _ = DateTimeZone.GetDateTime(timeZone);
+                    _ = DateTimeByZone.GetDateTime(timeZone);
                 }
                 catch (Exception)
                 {

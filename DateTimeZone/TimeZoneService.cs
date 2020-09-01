@@ -1,7 +1,7 @@
 ﻿using System;
 using TimeZoneConverter;
 
-namespace DTZone
+namespace DateTimeZone
 {
     public static class TimeZoneService
     {        
