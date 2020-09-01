@@ -9,8 +9,10 @@
     <RepositoryType></RepositoryType>
     <Company>https://jhonacevedo.com</Company>
     <RepositoryUrl>https://github.com/jhonvedo/DateTimeZone</RepositoryUrl>
-    <Version>1.0.4</Version>
+    <Version>1.1.0</Version>
     <Description>Get the DateTime of a specific zone.</Description>
+    <PackageReleaseNotes>Add timezone list and simplify the implementation
+</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
