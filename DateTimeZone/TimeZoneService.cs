@@ -22,7 +22,7 @@ namespace DateTimeZone
 
         public static TimeZoneInfo GetTimeZoneInfo(DateTimeZoneType zoneName)
         {            
-            return GetTimeZoneInfo(zoneName.GetDescription());
+            return GetTimeZoneInfo(zoneName.GetDescriptionValue());
         }
 
         public static TimeZoneInfo GetTimeZoneInfo(string zoneName)

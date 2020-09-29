@@ -4,7 +4,7 @@ Get DateTime For custom TimeZone
 
 ## Set TimeZone from StartUp
 
-1. Set DateTimezone in your init class  (it takes the local time zone for default) you can see the TimeZone list [Here](#TimeZone_availables)
+1. Set DateTimezone in your init class  (it takes the local time zone for default) 
 
    ```c#
     TimeZoneService.SetCustomTimeZone("AUS Eastern Standard Time");
@@ -15,6 +15,8 @@ Get DateTime For custom TimeZone
    ```c#
     TimeZoneService.SetCustomTimeZone(DateTimeZoneType.CANBERRA_MELBOURNE_SYDNEY);
    ```
+
+   you can see the TimeZone list [Here](#timeone-availables)
 
 2. Use DateTimeZone:
 
@@ -33,7 +35,7 @@ Get DateTime For custom TimeZone
   ```
 
 
-
+you can see the TimeZone list [Here](#timeone-availables)
 
 ## TimeZone availables
 

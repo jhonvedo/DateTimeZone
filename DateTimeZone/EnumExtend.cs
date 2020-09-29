@@ -3,9 +3,9 @@ using System.Reflection;
 
 namespace System
 {
-    public static class EnumExtends
+    public static class EnumExtend
     {
-        public static string GetDescription(this Enum GenericEnum)
+        public static string GetDescriptionValue(this Enum GenericEnum)
         {
             Type genericEnumType = GenericEnum.GetType();
             MemberInfo[] memberInfo = genericEnumType.GetMember(GenericEnum.ToString());
